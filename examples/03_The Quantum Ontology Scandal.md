@@ -1,6 +1,8 @@
 # Case Study 03: The Quantum Ontology Scandal
 > **Target Domain:** Philosophy of Science (Quantum Mechanics)
+
 > **Applied Logic:** Paradox & Refutation (EPR vs Copenhagen)
+
 > **Constraint:** Mathematical Proof Integration (Bell's Inequality)
 
 ## 1. Generated Passage (생성 지문)
