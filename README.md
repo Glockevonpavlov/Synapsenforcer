@@ -13,6 +13,18 @@ Unlike standard prompts that rely on the LLM's probability distribution, this fr
 
 이 프로젝트는 LLM이 생성하는 텍스트의 논리적 밀도를 극한으로 높이고, 인과관계 오류를 방지하기 위해 설계된 **'논리 제약 강제 프레임워크'**입니다. 동아시아 최고 난이도 적성시험인 **LEET(법학적성시험)** 수준의 지문을 생성하며, 생성된 문제를 스스로 검증하는 **Self-Auditing Pipeline**을 갖추고 있습니다.
 
+```mermaid
+graph TD
+    A[User Input / Topic] -->|Phase 0| B(Blueprint Design)
+    B -->|Phase 1: Generator| C{Synapsenforcer Core}
+    C -->|Logic Schema| D[Draft Generation]
+    C -->|Trap Injection| D
+    D -->|Phase 2: Auditor| E[Self-Audit Protocol]
+    E -->|Detection| F{Logical Flaw?}
+    F -- Yes --> C
+    F -- No --> G[Final Output: Zero-Hallucination Text]
+```
+
 ## 🚀 Key Features
 
 ### 1. Dual-Core Architecture (생성-검증 이원화)
@@ -20,7 +32,7 @@ Unlike standard prompts that rely on the LLM's probability distribution, this fr
 * **Auditor (Logic Debugger):** A specialized persona that dissects the generated text into atomic units to detect logical flaws, ensuring **Zero-Hallucination**.
 
 ### 2. The 12 Trap Protocols (Black-box Logic)
-**Synapsenforcer** utilizes 12 proprietary logic gates to simulate high-level cognitive distortions and verify internal consistency. These protocols are categorized into three dimensions:
+**Synapsenforcer** utilizes 11 proprietary logic gates to simulate high-level cognitive distortions and verify internal consistency. These protocols are categorized into three dimensions:
 
 * **⚡ Structural & Causal Traps:**
     * Detects and generates sophisticated logical fallacies such as **Causal Reversal** (reversing cause and effect) and **Partial Truths** (breaking logical chains).
@@ -49,6 +61,8 @@ Synapsenforcer/
 └── assets/
     └── logic_diagram.png
 ```
+
+
 
 ## 🛠️ Usage Scenario
 
