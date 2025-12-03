@@ -36,3 +36,6 @@ This framework can be applied to:
 **Glocke von Pavlov**
 * Prompt Architect & Logic Designer
 * Focus: Preventing LLM Hallucinations via Structured Constraints.
+
+* "This repository contains the Lite Version of the Trap Protocols. The full implementation of advanced logic gates (TRAP_06, 07, 09), which are critical for preventing high-level hallucinations in legal/mathematical contexts, is available upon request for technical interviews or partnership inquiries."
+
