@@ -9,9 +9,9 @@
 ## 📌 Overview
 **Synapsenforcer** is a systematic prompting framework designed to produce **high-density, logically rigorous texts** comparable to high-stakes reasoning exams (e.g., LSAT, LEET).
 
-Unlike standard prompts that rely on the LLM's probability distribution, this framework enforces strict **"Logic Schemas"** and **"Proprietary Trap Protocols"** to prevent hallucinations in causal reasoning, mathematical modeling, and data interpretation. Currently, script's hallucination rate is near 0.
+Unlike standard prompts that rely on the LLM's probability distribution, this framework enforces strict **"Logic Schemas"** and **"Proprietary Trap Protocols"** to prevent hallucinations in causal reasoning, mathematical modeling, and data interpretation. Currently, this script achieved near-zero hallucination rates in internal benchmarks.
 
-이 프로젝트는 LLM이 생성하는 텍스트의 논리적 밀도를 극한으로 높이고, 인과관계 오류를 방지하기 위해 설계된 **'논리 제약 강제 프레임워크'**입니다. 동아시아 최고 난이도 적성시험인 **LEET(법학적성시험)** 수준의 지문을 생성하며, 생성된 문제를 스스로 검증하는 **Self-Auditing Pipeline**을 갖추고 있습니다. 현재 스크립트의 환각률은 거의 0입니다.
+이 프로젝트는 LLM이 생성하는 텍스트의 논리적 밀도를 극한으로 높이고, 인과관계 오류를 방지하기 위해 설계된 **'논리 제약 강제 프레임워크'**입니다. 동아시아 최고 난이도 적성시험인 **LEET(법학적성시험)** 수준의 지문을 생성하며, 생성된 문제를 스스로 검증하는 **Self-Auditing Pipeline**을 갖추고 있습니다. 현재 스크립트의 환각률은 거의 0에 이르고 있습니다.
 
 ```mermaid
 graph TD
