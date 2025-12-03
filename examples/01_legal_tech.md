@@ -1,192 +1,116 @@
-# Case Study 01: The Paradox of Automated Enforcement
-> **Target Domain:** Legal-Tech / Philosophy of Law
-> **Applied Logic:** Dialectical Deepening, Modality Shift Trap
-> **Constraint:** Mathematical Abstraction Rule ($R = f(x) + \epsilon$)
+# Case Study 02: The Phenomenology of Embodiment
+> **Target Domain:** Philosophy (Phenomenology)
+> **Applied Logic:** Binary Opposition, Edge Case Analysis
+> **Constraint:** Concept Hierarchy (Body Schema vs. Body Image)
 
 ## 1. Generated Passage (생성 지문)
 
-### 자동 집행의 역설: 코드의 규범성과 법적 재량의 소멸
+### 신체 도식과 환상지: '나는 생각한다'에서 '나는 할 수 있다'로
 
-전통적 법치주의 하에서 법의 집행은 '언어의 불확정성'을 전제로 성립한다. 자연어로 기술된 법률은 필연적으로 의미의 공백을 내포하며, 이 공백은 법관이나 행정청의 '해석적 재량'에 의해 사후적으로 메워진다. 이러한 **㉠'해석적 유연성'**은 법적 안정성을 일부 훼손할지라도, 구체적 타당성을 확보하는 핵심 기제로 작동해 왔다. 그러나 블록체인 기반의 스마트 계약(Smart Contract)과 알고리즘 행정이 도입되면서, **㉡'코드의 완결성'**이 ㉠을 대체하는 새로운 통치 패러다임이 부상했다. 이른바 '코드가 법이다(Code is Law)'라는 명제는 법 집행의 시간적 위상을 '사후적 판단'에서 '사전적 확정'으로 전복시킨다.
+서구 근대 철학의 아버지라 불리는 데카르트에게 신체는 연장(extension)을 가진 물질적 대상에 불과했다. 그의 이원론적 도식 안에서 정신은 사유하는 주체인 반면, 신체는 정신의 명령을 수행하거나 기계적 법칙에 따라 작동하는 객체였다. 이러한 관점, 즉 주지주의(Intellectualism)와 경험주의(Empiricism)의 전통 위에서 신체에 대한 지각은 '대상에 대한 표상'이나 '생리학적 감각 데이터의 총합'으로 환원된다. 이들에게 공간은 xyz축으로 이루어진 기하학적 좌표계이며, 내 몸은 그 좌표의 특정 위치를 점유하는 물체일 뿐이다.
 
-㉡의 세계에서 규범은 조건문(If-Then)의 연쇄로 치환된다. 이는 법률 요건의 충족 여부를 기계적으로 판별하여 집행의 즉시성을 보장하지만, 동시에 '예외 없는 집행'이라는 폭력성을 내재한다. 이를 수식으로 모델링하면, 특정 행정 처분의 결과값 $R$은 입력 변수 벡터 $\mathbf{x} = (x_1, x_2, ..., x_n)$와 알고리즘의 가중치 함수 $f$의 결합인 $R = f(\mathbf{x})$로 정의된다. 전통적 행정에서 $R$은 인간의 재량 변수 $\epsilon$이 개입하여 $R_{human} = f(\mathbf{x}) + \epsilon$의 형태를 띠며, 여기서 $\epsilon$은 상황적 맥락에 따라 $R$의 값을 보정하는 완충재 역할을 수행한다. 반면, 알고리즘 행정에서의 $\epsilon$은 $0$으로 수렴하거나, 혹은 사전에 프로그래밍된 난수(Random seed)에 불과하다. 즉, ⓐ입력값이 동일하면 결과값은 필연적으로 동일해야 한다는 '알고리즘적 무오류성'의 신화가 탄생하는 것이다.
+그러나 모리스 메를로-퐁티는 『지각의 현상학』을 통해 이러한 고전적 사유를 전복한다. 그는 신체가 세계를 관조하는 대상이 아니라, 세계를 향해 열려 있는 '지각의 장(field)'이자 '실존의 닻'이라고 주장한다. 그에 따르면 우리는 신체를 '통해' 세계를 지각하는 것이 아니라, 신체 '로서' 세계에 존재한다. 여기서 등장하는 핵심 개념이 바로 **㉠'신체 도식(Body Schema)'**과 **㉡'신체 이미지(Body Image)'**의 엄밀한 구분이다.
 
-문제는 이 $f$가 가치 중립적이지 않다는 데 있다. $f$를 설계하는 과정에서 개발자는 현실의 복잡다단한 인과관계를 유한한 변수로 **'압축(Reduction)'**해야 한다. 이 과정에서 정량화하기 어려운 가치들—형평성, 인간의 존엄, 사회적 합의—은 변수 집합에서 **㉢'임의적 배제'**를 당하거나, 기껏해야 낮은 가중치($w \approx 0$)를 부여받는 데 그친다. 예를 들어, 복지 수급 대상자 선정 알고리즘에서 '소득'은 쉽게 $x_1$으로 포섭되지만, '가계의 특수한 위기 상황'은 데이터화되지 않아 $f$의 연산에서 소거된다. 결과적으로 $R$은 수치적으로는 최적해(Optimal Solution)일지 모르나, 규범적으로는 정의(Justice)와 괴리될 위험을 안고 있다.
+기존 심리학이 말하는 ㉡은 내 몸에 대한 의식적인 믿음이나 시각적 표상이다. 반면, 메를로-퐁티가 제시한 ㉠은 전(前)의식적이고 역동적인 기능 시스템이다. 내가 책상 위의 컵을 집으려 할 때, 나는 내 팔의 길이와 관절의 각도를 계산하지 않는다. 나의 손은 이미 컵의 위치와 모양에 맞추어 예비적으로 형상을 갖춘다. 이것은 지적인 계산이 아니라, 세계의 부름에 응답하는 몸의 '잠재적 운동성'이다. 즉, ㉠은 '나는 할 수 있다(I can)'라는 실천적 능력의 체계이지, '나는 생각한다(I think)'라는 사유의 체계가 아니다.
 
-더욱 심각한 것은 **'오류의 불가역성'**이다. ㉠의 체계에서는 오판에 대한 항소나 행정심판이라는 '제도적 복구 절차'가 존재한다. 그러나 ㉡의 체계, 특히 분산 원장에 기록된 스마트 계약에서는 일단 조건이 충족되어 $R$이 산출되면, 이를 되돌릴 수 있는 상위 권한이 존재하지 않는다. 이를 수정하기 위해서는 시스템 전체를 하드포크(Hard Fork)해야 하는데, 이는 법적 안정성을 지키기 위해 시스템의 신뢰성 자체를 붕괴시키는 모순을 낳는다.
+이 두 관점의 차이는 **'환상지(Phantom Limb)'** 현상을 설명할 때 극명하게 드러난다. 사고로 팔을 잃은 환자가 여전히 팔의 통증을 느끼는 현상에 대해, 전통적 생리학은 절단면 신경의 자극 오류로, 정신분석학은 상실에 대한 억압된 기억이나 욕망의 투사로 설명하려 한다. 두 설명 모두 환상지를 '과거의 기억'이나 '현재의 감각' 중 하나로 환원시킨다. 하지만 메를로-퐁티에게 환상지는 감각도 기억도 아니다. 그것은 '세계 내 존재'로서의 습관적 신체가 여전히 절단된 팔을 통해 세계와 관계 맺으려 하는 '실존적 관성'이다.
 
-결국 기술적 합리성이 법적 타당성을 잠식하는 현상은, 인간이 만든 도구가 인간의 판단을 배제하는 소외(Alienation)의 극한이다. 우리는 효율성이라는 미명 하에, 기계가 내린 처분에 대해 "시스템이 그렇게 결정했다"는 동어반복적 정당화만을 남긴 채, 판단의 주체성을 알고리즘이라는 블랙박스 속으로 유기하고 있는 것이다.
+습관적 신체, 즉 ㉠은 여전히 문고리를 돌리려 하는데, 현재적 신체는 그것이 불가능함을 안다. 이 불일치가 환상지를 만든다. 따라서 환상지는 '없는 팔에 대한 착각'이 아니라, '세계에 대한 관여를 멈추지 않는 몸의 거절할 수 없는 지향성'이다. 공간 역시 달라진다. 메를로-퐁티에게 공간은 기하학적 위치들의 집합(공간적 공간)이 아니라, 내 몸이 거주하며 활동할 수 있는 상황들의 집합(상황적 공간)이다. 내 몸은 공간 '안'에 있는 것이 아니라, 공간을 **'서식(inhabit)'**한다. 결국 신체는 세계를 파악하는 도구가 아니라, 세계가 나에게 의미 있는 장소로 드러나게 하는 근원적 조건인 것이다.
 
-[시각 자료 데이터]
+#### [시각 자료 데이터]
 
-JSON
-
-
+```json
+{
+  "type": "concept_comparison_table",
+  "title": "신체 지각의 두 가지 층위 비교",
+  "axis": {
+    "category": "구분 기준 (Dimension)",
+    "concept_A": "신체 이미지 (Body Image)",
+    "concept_B": "신체 도식 (Body Schema)"
+  },
+  "data_points": [
+    {
+      "dimension": "작동 방식 (Mechanism)",
+      "concept_A": "의식적 표상 및 지적 계산 (I think)",
+      "concept_B": "전(前)의식적 운동성 및 실천 (I can)"
+    },
+    {
+      "dimension": "공간적 위상 (Spatiality)",
+      "concept_A": "기하학적 공간 내의 위치 점유 (Position)",
+      "concept_B": "상황적 공간 내의 거주 및 서식 (Habitation)"
+    },
+    {
+      "dimension": "환상지의 해석 (Interpretation)",
+      "concept_A": "억압된 기억의 투사 또는 생리학적 오류",
+      "concept_B": "세계에 대한 실존적 관여의 지속 (관성)"
+    }
 
 {
-
-"type": "concept_graph",
-
-"title": "법적 결정 시스템의 효용 함수 비교",
-
-"axis": {
-
-"x_axis": "결정의 자동화 수준 (Automation Level, A)",
-
-"y_axis": "사회적 효용 (Social Utility, U)"
-
-},
-
-"data_points": [
-
-{
-
-"segment": "구간 I (초기)",
-
-"description": "자동화 수준(A)이 증가함에 따라 신속성과 비용 절감 효과로 인해 사회적 효용(U)이 급격히 증가함 (U ∝ A)."
-
-},
-
-{
-
-"segment": "지점 P (임계점)",
-
-"description": "변수 압축으로 인한 구체적 타당성 상실 비용이 효율성 증가분을 상쇄하기 시작하는 지점."
-
-},
-
-{
-
-"segment": "구간 II (과잉 자동화)",
-
-"description": "자동화 수준(A)이 임계점을 초과하면, 재량권 소멸로 인한 경직성 비용(Rigidity Cost)이 급증하여 사회적 효용(U)은 오히려 감소함 (U ∝ -A^2)."
-
+  "review_meta": {
+    "difficulty_level": "최상 (Killer)",
+    "difficulty_rationale": "현상학적 개념(도식/이미지)의 층위 구분 실패를 유도하며, 타 학문(정신분석학)의 설명을 교묘히 섞는 'Internal/External Swap' 기법이 적용됨.",
+    "core_architectonics": "데카르트(정신/신체 이원론) vs 메를로-퐁티(심신일원론적 실존, 상황적 공간)"
+  },
+  "cognitive_reconstruction": {
+    "flow_log": [
+      "1문단: 데카르트적 이원론과 신체/공간에 대한 통념 제시 (Thesis)",
+      "2문단: 메를로-퐁티의 전복적 사고 도입. 신체를 주체로 격상 (Antithesis)",
+      "3문단: 핵심 제재인 ㉠과 ㉡의 개념적 분리 및 정의 (Definition)",
+      "4문단: '환상지'라는 구체적/극한적 사례(Edge Case)를 통한 두 관점의 충돌",
+      "5문단: 공간 개념의 재정의(서식함)와 신체의 존재론적 위상 확립 (Conclusion)"
+    ]
+  },
+  "item_dissection": [
+    {
+      "question_index": 1,
+      "applied_trap_code": "TRAP_05 [REDACTED - Proprietary Logic Model v2.0] & TRAP_03 (Category Confusion)",
+      "option_analysis": [
+        {
+          "option_num": 3,
+          "status": "Incorrect (Answer)",
+          "audit_result": "Contextual Error",
+          "commentary": "지문 4문단에서 환상지를 '억압된 기억'으로 보는 것은 정신분석학의 견해임. [REDACTED - Proprietary Logic Model v2.0] 기법을 사용하여 학자 간의 입장을 혼동시킴."
+        }
+      ]
+    },
+    {
+      "question_index": 2,
+      "applied_trap_code": "TRAP_03 [REDACTED - Proprietary Logic Model v2.0]",
+      "option_analysis": [
+        {
+          "option_num": 3,
+          "status": "Correct",
+          "audit_result": "Definition Check",
+          "commentary": "㉡(신체 이미지)은 의식적/지적 작용, ㉠(신체 도식)은 전의식적/실천적 능력이라는 지문의 핵심 정의를 정확히 1:1 대응시킴."
+        },
+        {
+          "option_num": 4,
+          "status": "Trap",
+          "audit_result": "TRAP_02 (Causal Reversal)",
+          "commentary": "운동 능력의 상실은 실천적 체계인 ㉠의 훼손과 관련됨. [REDACTED - Proprietary Logic Model v2.0]하여 인과관계를 전도함."
+        }
+      ]
+    },
+    {
+      "question_index": 3,
+      "applied_trap_code": "Type_A_Concrete_Application & TRAP_11 [REDACTED - Proprietary Logic Model v2.0]",
+      "option_analysis": [
+        {
+          "option_num": 1,
+          "status": "Correct",
+          "audit_result": "Inference Verification",
+          "commentary": "'숙련'의 과정을 '의식적 대상(이미지)'에서 '무의식적 연장(도식)'으로의 존재론적 전이로 파악했는지 묻는 고난도 추론."
+        },
+        {
+          "option_num": 2,
+          "status": "Trap",
+          "audit_result": "TRAP_11 [REDACTED - Proprietary Logic Model v2.0]",
+          "commentary": "[REDACTED - Proprietary Logic Model v2.0]을 적용하여 논점을 미묘하게 일탈시킴."
+        }
+      ]
+    }
+  ]
 }
-
-],
-
-"interpretation_guide": "알고리즘 행정의 도입은 구간 I을 목표로 하지만, 기술 만능주의는 시스템을 구간 II로 밀어넣어 '구성의 오류'를 범하게 한다."
-
-}
-
----
-
-## 2. Generated Questions (생성 문제)
-
-**Q1. ㉠과 ㉡에 대한 설명으로 가장 적절한 것은?**
-1. ㉠은 법적 판단의 사후적 교정을 허용함으로써 법적 안정성보다는 구체적 타당성을 우위에 두는 기제이다.
-2. ㉡은 자연어의 의미적 모호성을 제거하기 위해 도입되었으나, 결과적으로 법 적용의 시간적 선후 관계를 ㉠과 동일하게 유지한다.
-3. ㉡이 보장하는 무결성은 시스템 내부의 논리적 완결성을 의미하므로, 외부의 사실 관계가 잘못 입력되더라도 산출된 결과값의 법적 정당성은 훼손되지 않는다.
-4. ㉠이 입법자의 의도를 해석자가 재구성하는 과정이라면, ㉡은 해석자의 주관을 배제하고 입법자의 의도를 완벽하게 재현하는 기술적 수단이다.
-5. ㉠과 ㉡은 모두 '예외 없는 규칙 적용'을 이상적인 법치주의의 모델로 상정한다는 점에서 구조적 동형성을 갖는다.
-
-**Q2. 윗글의 수리적 모델 $R = f(\mathbf{x}) + \epsilon$ 과 [시각 자료]를 바탕으로 추론한 내용으로 적절하지 않은 것은?**
-1. 전통적 행정에서 $\epsilon$의 존재는 [시각 자료]의 '경직성 비용'을 상쇄하여 $U$의 급격한 하락을 방지하는 기능을 수행한다.
-2. 알고리즘 행정에서 특정 변수 $x_k$의 가중치 $w_k$가 $0$으로 설정된 것은, 해당 변수가 ㉢에 의해 $f$의 연산 과정에서 배제되었음을 의미한다.
-3. 개발자가 $f$를 설계할 때 $\epsilon$을 $0$으로 고정하더라도, 입력 변수 $\mathbf{x}$의 차원($n$)을 무한히 늘리면 $R$은 인간의 재량적 판단과 완전히 일치하게 된다.
-4. [시각 자료]의 '구간 II'에서 사회적 효용($U$)이 감소하는 현상은, 모델 내의 $\epsilon$이 제거됨으로써 발생한 '유연성 상실'이 '신속성 이익'을 압도했기 때문이다.
-5. $R$의 산출 과정에서 난수(Random seed)가 개입된다는 것은, 결과의 예측 불가능성을 의미할 뿐 인간의 의도적 보정인 $\epsilon$의 본질적 기능과는 무관하다.
-
-**Q3.윗글의 논지를 바탕으로 <보기>의 상황을 평가할 때, 가장 적절한 반응은?
-
-<보 기>
-A국은 범죄 재범 위험성을 예측하여 가석방 여부를 결정하는 AI 시스템 '테미스'를 도입했다. 테미스는 과거 10년치 범죄 데이터를 학습(Training)하여 알고리즘을 생성했다. 그런데 분석 결과, 특정 지역 출신 피고인들에게 테미스가 현저히 높은 재범 확률을 부여한다는 사실이 밝혀졌다. 개발사는 "알고리즘은 지역 코드를 입력받았을 뿐, 차별을 의도하지 않았다"고 항변했다.
-
-1. 테미스의 판단은 과거 데이터의 통계적 패턴을 반영한 것이므로, 이는 ㉢의 문제라기보다는 입력 데이터의 정확성 문제로 귀결되어야 한다.
-2. 개발사의 항변은 $f$의 설계 과정이 가치 중립적이라는 전제에 기반하고 있으나, 이는 과거의 사회적 편견이 데이터에 내재되어 알고리즘을 통해 재생산될 수 있음을 간과한 것이다.
-3. 테미스가 특정 지역 출신에게 불리한 결과를 내놓은 것은 $\epsilon$값의 과도한 개입 때문이므로, 알고리즘의 결정론적 성격을 강화하여 인간의 개입을 줄여야 해결될 수 있다.
-4. 가석방 결정의 번복이 불가능하다는 점은 스마트 계약의 특성이므로, A국은 테미스의 결정에 대해 피고인이 이의를 제기할 수 있는 사후적 절차를 원천적으로 차단해야 한다.
-5. 지역 코드가 재범 확률의 주요 변수($x_i$)로 작동했다면, 이는 $f$가 현실의 인과관계를 정확히 반영한 것이므로 결과의 규범적 정당성은 자동적으로 확보된다.
-
----
-
-## 3. Audit Report (감사 보고서)
-
-[출제 메커니즘 감사 보고서 (Audit Report)]
-
-JSON
-
-
-{
-"review_meta": {
-"difficulty_level": "최상 (Killer)",
-"difficulty_rationale": "법철학적 개념(재량, 타당성)과 수리적 모델링(함수, 오차항)을 유기적으로 결합해야 풀 수 있으며, 선지 전반에 고난도 TRAP 코드(03, 07, 10, 11)가 복합 적용됨.",
-"core_architectonics": "인간의 재량(Analogue/Discretion) vs 기계의 알고리즘(Digital/Determinism)의 이항 대립과 그 사이의 존재론적 간극."
-},
-"cognitive_reconstruction": {
-"flow_log": [
-"1문단: 법적 안정성과 구체적 타당성의 상충 관계(Trade-off)를 ㉠과 ㉡의 대립으로 정의.",
-"2문단: 행정 처분을 수식 R = f(x) + ε로 모델링하여 ε(재량)의 유무가 핵심 차이임을 도출.",
-"3문단: 알고리즘의 '압축' 과정에서 발생하는 ㉢(임의적 배제)과 가치 중립성의 허구 폭로.",
-"4문단: 스마트 계약의 비가역성과 사후적 구제 수단의 부재로 인한 위기 고조.",
-"결문: 기술적 합리성이 인간의 주체성을 잠식하는 디스토피아적 현실 진단."
-
-]
-
-},
-"item_dissection": [
-{
-"question_index": 1,
-"applied_trap_code": "TRAP_02 (Causal Reversal) & TRAP_05 [REDACTED - Proprietary Logic Model v2.0]",
-"option_analysis": [
-{
-"option_num": 1,
-"status": "Correct",
-"audit_result": "Concept Verification",
-"commentary": "지문 1문단에서 ㉠(해석적 재량)은 법적 안정성을 훼손하더라도 구체적 타당성을 확보하는 기제라고 명시함. Trade-off 관계를 정확히 서술."
-},
-
-{
-"option_num": 2,
-"status": "Trap",
-"audit_result": "Time-Phase Error",
-"commentary": "㉡은 '사후적 판단'을 '사전적 확정'으로 전복시킨다고 지문에 명시됨. 시간적 선후 관계를 ㉠과 동일하게 유지한다는 서술은 명백한 오류."
-},
-
-{
-"option_num": 3,
-"status": "Trap",
-"audit_result": "TRAP_03 [REDACTED - Proprietary Logic Model v2.0]",
-"commentary":"[REDACTED - Proprietary Logic Model v2.0]"
-}
-]
-},
-{
-"question_index": 2,
-"applied_trap_code": "TRAP_07 [REDACTED - Proprietary Logic Model v2.0] & TRAP_12 [REDACTED - Proprietary Logic Model v2.0]",
-"option_analysis": [
-{
-"option_num": 3,
-"status": "Trap",
-"audit_result": "TRAP_07 [REDACTED - Proprietary Logic Model v2.0]",
-"commentary": "킬러 선지. [REDACTED - Proprietary Logic Model v2.0]"
-},
-
-{
-"option_num": 4,
-"status": "Correct",
-"audit_result": "Logic Synthesis",
-"commentary": "[시각 자료]의 구간 II에서 효용이 감소하는 원인은 '경직성 비용'의 증가 때문이며, 이는 지문의 ε(재량)이 0으로 수렴하여 유연성이 상실된 상황과 정확히 대응됨."
-}
-]
-},
-{
-"question_index": 3,
-"applied_trap_code": "TRAP_05 [REDACTED - Proprietary Logic Model v2.0] & TRAP_11 [REDACTED - Proprietary Logic Model v2.0]",
-"option_analysis": [
-{
-"option_num": 2,
-"status": "Correct",
-"audit_result": "Contextual Application",
-"commentary": "지문 3문단에서 f는 가치 중립적이지 않으며, 개발 과정에서 필연적으로 가치 판단(또는 배제)이 개입됨을 역설함. 따라서 '중립적 설계'라는 항변을 비판하는 논리가 가장 적절함."
-},
-{
-"option_num": 5,
-"status": "Trap",
-"audit_result": "TRAP_06 (Modality Shift)",
-"commentary": "[REDACTED - Proprietary Logic Model v2.0]"
-}
-]
-}
-]
+  ],
+  "interpretation_guide": "㉡이 대상으로서의 몸을 관찰하는 것이라면, ㉠은 주체로서의 몸이 세계와 관계 맺는 방식이다."
 }
