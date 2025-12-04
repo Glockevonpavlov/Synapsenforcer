@@ -13,7 +13,7 @@ Unlike standard prompts that rely on the LLM's probability distribution, this fr
 
 이 프로젝트는 LLM이 생성하는 텍스트의 논리적 밀도를 극한으로 높이고, 인과관계 오류를 방지하기 위해 설계된 **'논리 제약 강제 프레임워크'**입니다. 동아시아 최고 난이도 적성시험인 **LEET(법학적성시험)** 수준의 지문을 생성하며, 생성된 문제를 스스로 검증하는 **Self-Auditing Pipeline**을 갖추고 있습니다. 현재 스크립트의 환각률은 거의 0에 이르고 있습니다.
 
-## Lite version Sample: https://gemini.google.com/gem/e278a0417e4b (For analyzing article)
+## Lite version Sample: https://gemini.google.com/gem/19F49JK2XZQ9pd0jrrg5d6xTOn3wAcOKB?usp=sharing (For analyzing article)
 
 ```mermaid
 graph TD
